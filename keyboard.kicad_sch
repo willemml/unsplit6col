@@ -1,0 +1,90 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid a3795772-e8b2-4a24-8aa0-5a93e6e5ac56)
+
+  (paper "A4")
+
+  (title_block
+    (title "Keyboard")
+    (date "2024-02-08")
+    (rev "0")
+  )
+
+  (lib_symbols
+  )
+
+
+  (no_connect (at 2.54 49.53) (uuid ae8fa374-d7bf-46e4-b5d0-b9d49a316047))
+
+  (sheet (at 161.29 26.67) (size 22.86 12.7) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 4e5c1308-6948-4418-b24d-d3d63913e2f4)
+    (property "Sheetname" "Connectors" (at 161.29 25.9584 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "connectors.kicad_sch" (at 161.29 39.9546 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "keyboard"
+        (path "/a3795772-e8b2-4a24-8aa0-5a93e6e5ac56" (page "5"))
+      )
+    )
+  )
+
+  (sheet (at 69.85 26.67) (size 22.86 13.97) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 824037f1-2051-4dfb-9b54-5b5661939278)
+    (property "Sheetname" "Controller" (at 69.85 25.9584 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "controller.kicad_sch" (at 69.85 41.2246 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "keyboard"
+        (path "/a3795772-e8b2-4a24-8aa0-5a93e6e5ac56" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 113.03 26.67) (size 22.86 13.97) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid c2fac475-eefc-4fa7-89e3-f138d1e57553)
+    (property "Sheetname" "Charging" (at 113.03 25.9584 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "charging.kicad_sch" (at 113.03 41.2246 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "keyboard"
+        (path "/a3795772-e8b2-4a24-8aa0-5a93e6e5ac56" (page "4"))
+      )
+    )
+  )
+
+  (sheet (at 27.94 26.67) (size 21.59 13.97) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid f54ebb0b-bce1-4576-93c5-16e0af815b51)
+    (property "Sheetname" "Matrix" (at 27.94 25.9584 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "matrix.kicad_sch" (at 27.94 41.2246 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "keyboard"
+        (path "/a3795772-e8b2-4a24-8aa0-5a93e6e5ac56" (page "2"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)

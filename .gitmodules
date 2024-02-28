@@ -1,0 +1,4 @@
+[submodule "kbd"]
+	path = kbd
+	url = https://github.com/foostan/kbd.git
+	branch = crkbd4
