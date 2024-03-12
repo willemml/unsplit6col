@@ -1,0 +1,79 @@
+%TF.GenerationSoftware,KiCad,Pcbnew,7.0.10*%
+%TF.CreationDate,2024-03-12T01:25:21-07:00*%
+%TF.ProjectId,keyboard,6b657962-6f61-4726-942e-6b696361645f,rev?*%
+%TF.SameCoordinates,Original*%
+%TF.FileFunction,Paste,Bot*%
+%TF.FilePolarity,Positive*%
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 7.0.10) date 2024-03-12 01:25:21*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+G04 Aperture macros list*
+%AMRoundRect*
+0 Rectangle with rounded corners*
+0 $1 Rounding radius*
+0 $2 $3 $4 $5 $6 $7 $8 $9 X,Y pos of 4 corners*
+0 Add a 4 corners polygon primitive as box body*
+4,1,4,$2,$3,$4,$5,$6,$7,$8,$9,$2,$3,0*
+0 Add four circle primitives for the rounded corners*
+1,1,$1+$1,$2,$3*
+1,1,$1+$1,$4,$5*
+1,1,$1+$1,$6,$7*
+1,1,$1+$1,$8,$9*
+0 Add four rect primitives between the rounded corners*
+20,1,$1+$1,$2,$3,$4,$5,0*
+20,1,$1+$1,$4,$5,$6,$7,0*
+20,1,$1+$1,$6,$7,$8,$9,0*
+20,1,$1+$1,$8,$9,$2,$3,0*%
+%AMRotRect*
+0 Rectangle, with rotation*
+0 The origin of the aperture is its center*
+0 $1 length*
+0 $2 width*
+0 $3 Rotation angle, in degrees counterclockwise*
+0 Add horizontal line*
+21,1,$1,$2,0,0,$3*%
+G04 Aperture macros list end*
+%ADD10RoundRect,0.150000X-0.116533X-0.508842X0.182807X-0.488960X0.116533X0.508842X-0.182807X0.488960X0*%
+%ADD11RoundRect,0.075000X-0.036728X-0.578706X0.112943X-0.568765X0.036728X0.578706X-0.112943X0.568765X0*%
+%ADD12RotRect,1.000000X0.800000X353.500000*%
+%ADD13RotRect,0.700000X1.500000X353.500000*%
+G04 APERTURE END LIST*
+D10*
+%TO.C,J1*%
+X103821395Y-117759073D03*
+X104619636Y-117706054D03*
+D11*
+X105767108Y-117629839D03*
+X106764909Y-117563565D03*
+X107263810Y-117530428D03*
+X108261612Y-117464154D03*
+D10*
+X109409083Y-117387939D03*
+X110207324Y-117334920D03*
+X110207324Y-117334920D03*
+X109409083Y-117387939D03*
+D11*
+X108760512Y-117431017D03*
+X107762711Y-117497291D03*
+X106266009Y-117596702D03*
+X105268207Y-117662976D03*
+D10*
+X104619636Y-117706054D03*
+X103821395Y-117759073D03*
+%TD*%
+D12*
+%TO.C,SW1*%
+X254551507Y-106976231D03*
+X254301328Y-109172024D03*
+X261804582Y-107802614D03*
+X261554403Y-109998408D03*
+D13*
+X255618747Y-109976331D03*
+X258599462Y-110315940D03*
+X260089820Y-110485745D03*
+%TD*%
+M02*
